@@ -34,3 +34,5 @@ df.show()
 df = spark.read.csv('art_spark.csv', header= True, schema = schema)
 df.printSchema()
 df.show()
+
+print(df.columns)
