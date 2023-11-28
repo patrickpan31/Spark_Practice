@@ -37,4 +37,16 @@ df.show()
 
 print(df.columns)
 
-print('hello world')
+df.select('TYPE').show()
+df.select(['TYPE','NUMBER']).show()
+df.describe("number").show()
+
+#add and delete column
+add_two = udf(lambda x: x+1, IntegerType())
+df = df.withColumn('NEWNUM', add_two('NUMBER'))
+df.drop('NEWNUM').show()
+
+#rename the column
+df.withColumnRenamed('NUMBER', 'NUMBERCOUNT').show()
+
+
