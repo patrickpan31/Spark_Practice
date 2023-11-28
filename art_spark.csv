@@ -1,0 +1,55 @@
+GENERIC,TRADE,TYPE ,NUMBER
+abacavir,ZIAGEN,NRTI,1
+Abacavir-Dolutegravir-Lamivud,TRIUMEQ,FDC,2
+abacavir-lamivudine,EPZICOM,NRTI,3
+atazanavir,REYATAZ,PI,4
+atazanavir-cobicistat,EVOTAZ,PI,5
+bictegravir-emtricitab-tenofov alafenamide,BIKTARVY,FDC,6
+Bictegravir-Emtricitab-Tenofov,BIKTARVY,FDC,7
+Bictegravir-Emtricitab-Tenofov,BIKTARVY,FDC,8
+cabotegravir,VOCABRIA,CABOTGRAVIR ,9
+cabotegravir,APLETUDE,CABOTEGRAVIR ,10
+COBICISTAT,TYBOST,BOOSTER,11
+darunavir,PREZISTA,PI,12
+darunavir-cobicistat,PREZCOBIX,PI,13
+Darun-Cobic-Emtricit-TenofAF,SYMTUZA,FDC,14
+dolutegravir,TIVICAY,Inegrase,15
+dolutegravir-lamiVUDine,DOVATO,FDC2,16
+dolutegravir-rilpivirine,JULUCA,FDC2,17
+doravirine,PIFELTRO,NNRTI,18
+doravirin-lamivudin-tenofovDF,DOVATO,FDC,19
+efavirenz,SUSTIVA,NNRTI,20
+efavirenz-emtrictabine-tenofovir,ATRIPLA,FDC,21
+Elviteg-Cobic-Emtricit-TenofDF,STRIBILD,FDC,22
+emtricitabine,EMTRIVA,NRTI,23
+emtricitabine-tenofovir DF,TRUVADA,NRTI,24
+emtricitabine-tenofovir AF,DESCOVY,NRTI,25
+emtricitab-rilpivir-tenofov AF,ODEFSEY,FDC,26
+Emtricitab-Rilpivir-Tenofov DF,COMPLERA,FDC,27
+Etravirine,INTELENCE,NNRTI,28
+fosamprenavir,LEXIVA,PI,29
+Fostemsavir,RUKOBIA ,OTHER,30
+elviteg-cobic-emtricit-tenofAF ,GENVOYA,FDC,31
+Ibalizumab,TROGARZO,OTHER,32
+lamiVUDine,EPIVIR,NRTI,33
+lamiVUDine-zidovudine,COMBIVIR,NRTI,34
+lamiVUDine-TENOFOVIR DF,CIMDUO ,NRTI,35
+lopinavir-ritonavir,KALETRA,NRTI,36
+maraviroc,SELZENTRY,OTHER,37
+nevirapine,VIRAMUNE,NNRTI,38
+raltegravir,ISENTRESS,Integrase,39
+rilpivirine,EDURANT ,NNRTO,40
+ritonavir,NORVIR,BOOSTER,41
+TDF-tenofovir,VIREAD,NRTI,42
+Tenofovir DISOPROXIL,VIREAD,NRTI,43
+abacavir-dolutegravir-lamivud ,TRIUMEQ,FDC,44
+zidovudine,RETROVIR,NRTI,45
+CABOTEGRAVIR-RILPIVIRINE ,CABENUVA,CABENUVA,46
+TIPRANAVIR,APTIVUS,PI,47
+INDINAVIR,CRIXIVAN,PI,48
+ENFUVIRTIDE,FUZEON,OTHER,49
+SAQUINAVIR,INVIRASE,PI,50
+NELFINAVIR,VIRACEPT,PI,51
+ABACAVIR/LAMIVUDINE/ZIDOVUDINE ,TRIZIVIR ,NRTI,52
+STAVUDINE,ZERIT ,NRTI,53
+LENACAPAVIR,SUNLENCA,OTHER,54
