@@ -33,7 +33,7 @@ df.show()
 
 df = spark.read.csv('art_spark.csv', header= True, schema = schema)
 df.printSchema()
-df.show()
+df.show(60)
 
 print(df.columns)
 
@@ -41,12 +41,16 @@ df.select('TYPE').show()
 df.select(['TYPE','NUMBER']).show()
 df.describe("number").show()
 
-#add and delete column
+### drop Na
+df.dropna(how = 'any', subset=['TYPE']).show(70)
+df = df.dropna(how='any', thresh=3)
+
+# add and delete column
 add_two = udf(lambda x: x+1, IntegerType())
 df = df.withColumn('NEWNUM', add_two('NUMBER'))
 df.drop('NEWNUM').show()
 
 #rename the column
-df.withColumnRenamed('NUMBER', 'NUMBERCOUNT').show()
+df.withColumnRenamed('NUMBER', 'NUMBERCOUNT').show(70)
 
 
